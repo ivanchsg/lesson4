@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F6F6F6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.content {
+	width: 1615px;
+	height: 805px;
+	border: 1px solid lightgray;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.images-block {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.images-block img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content-block {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.content-info h1 {
+	margin-bottom: 35px;
+	color: #2F2F2F;
+	font-family: Arial-BoldMT,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+	font-size: 36px;
+}
+
+.content-info p {
+	width: 100%;
+	max-width: 630px;
+	margin-bottom: 65px;
+	color: #2F2F2F;
+	font-family: ArialMT,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+	font-size: 24px;
+}
+
+.price {
+	display: block;
+	margin-bottom: 65px;
+	color: #2F2F2F;
+	font-family: ArialMT,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+	font-size: 48px;
+}
+
+.price span {
+	display: block;
+	margin-bottom: 30px;
+	color: #2F2F2F;
+	font-family: ArialMT,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+	font-size: 24px;
+}
+
+.content-info a {
+	background-color: #EC744A;
+	color: #fff;
+	font-family: ArialMT,AdobeInvisFont,MyriadPro-Regular, sans-serif;
+	font-size: 30px;
+	padding: 20px 50px;
+	text-decoration: none;
+}
+
+.content-info a:hover {
+	background-color: #EC6331;
+	border-radius: 10px;
+	transition: all 0.4s ease-in;
+}
